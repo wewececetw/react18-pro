@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Hello from "./components/Hello";
+import Fruits from "./components/Fruits";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,9 +14,11 @@ function App() {
     emoji: "👋",
     seatNumbers: seatNumbers,
   };
+  const fruits = ["🍏", "🍊", "🍌", "🍉", "🍍"];
   return (
     <div className="App">
       <Hello person={person} seatNumbers={seatNumbers} />
+      <Fruits fruits={fruits} />
     </div>
   );
 }
