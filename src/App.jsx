@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Hello />
+      <Hello name="Rob" message="Hi there!" emoji="👋" />
     </div>
   );
 }
