@@ -14,7 +14,35 @@ function App() {
     emoji: "👋",
     seatNumbers: seatNumbers,
   };
-  const fruits = ["🍏", "🍊", "🍌", "🍉", "🍍"];
+  // const fruits = ["🍏", "🍊", "🍌", "🍉", "🍍"];
+  const fruits = [
+    {
+      name: "apple",
+      price: 1.2,
+      emoji: "🍏",
+    },
+    {
+      name: "orange",
+      price: 0.95,
+      emoji: "🍊",
+    },
+    {
+      name: "banana",
+      price: 0.75,
+      emoji: "🍌",
+    },
+    {
+      name: "watermelon",
+      price: 4.5,
+      emoji: "🍉",
+    },
+    {
+      name: "pineapple",
+      price: 3.5,
+      emoji: "🍍",
+    },
+  ];
+
   return (
     <div className="App">
       <Hello person={person} seatNumbers={seatNumbers} />
