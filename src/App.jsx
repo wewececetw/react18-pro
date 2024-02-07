@@ -14,7 +14,6 @@ function App() {
     emoji: "👋",
     seatNumbers: seatNumbers,
   };
-  // const fruits = ["🍏", "🍊", "🍌", "🍉", "🍍"];
   const fruits = [
     {
       name: "apple",
