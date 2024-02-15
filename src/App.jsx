@@ -20,26 +20,31 @@ function App() {
       name: "apple",
       price: 1.2,
       emoji: "🍏",
+      soldOut: true,
     },
     {
       name: "orange",
       price: 0.95,
       emoji: "🍊",
+      soldOut: true,
     },
     {
       name: "banana",
       price: 0.75,
       emoji: "🍌",
+      soldOut: true,
     },
     {
       name: "watermelon",
       price: 4.5,
       emoji: "🍉",
+      soldOut: false,
     },
     {
       name: "pineapple",
       price: 3.5,
       emoji: "🍍",
+      soldOut: false,
     },
   ];
 
