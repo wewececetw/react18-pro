@@ -1,7 +1,13 @@
 export default function Fruit({ fruit }) {
   return (
-    <li key={fruit.name}>
-      {fruit.name} {fruit.emoji} ${fruit.price}
-    </li>
+    <>
+      {fruit.price > 1.1 ? (
+        <li key={fruit.name}>
+          {fruit.emoji} {fruit.name} ${fruit.price}
+        </li>
+      ) : (
+        ""
+      )}
+    </>
   );
 }
