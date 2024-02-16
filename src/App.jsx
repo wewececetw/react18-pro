@@ -5,6 +5,7 @@ import Hello from "./components/Hello";
 import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -55,6 +56,7 @@ function App() {
       <Fruits fruits={fruits} />
       <ConditionalComponent />
       <Message />
+      <Counter />
     </div>
   );
 }
